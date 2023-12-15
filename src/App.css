@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #4d9078;
+}
+
+.main-container {
+  width: 750px;
+  height: 600px;
+  margin: auto;
+  margin-top: 50px;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
+  background-color: #ead637;
+}
+
+.title-heading {
+  font-family: "Black Ops One";
+  font-size: 80px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  color: #0d3b66;
+  height: 100px;
+  width: 750px;
+  margin: auto;
+  text-align: center;
+  background-color: #ead637;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title-span {
+  width: 75%;
+}
+
+.clock-logo {
+  background-color: #ead637;
+}
+
+.signature {
+  height: 50px;
+  width: 100%;
+  background-color: #ead637;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signature-span {
+  height: 50%;
+  width: 100%;
+  font-family: "Black Ops One";
+  background-color: #ead637;
+}
+
+.signature-name {
+  color: #b20d30;
+}

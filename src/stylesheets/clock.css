@@ -1,0 +1,50 @@
+.clock-box {
+  width: 750px;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  flex: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ead637;
+}
+
+.clock-body {
+  height: 80%;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px,
+    rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.session-span {
+  width: auto;
+  height: auto;
+  font-family: "Black Ops One";
+  font-size: 30px;
+  position: absolute;
+  top: 15px;
+  background-color: #4d9078;
+}
+
+.clockwatch-span {
+  width: auto;
+  height: auto;
+  font-family: "Black Ops One";
+  font-size: 120px;
+  position: absolute;
+  bottom: 5px;
+  background-color: #4d9078;
+}
+
+.warning {
+  color: red;
+}
